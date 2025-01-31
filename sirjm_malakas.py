@@ -27,6 +27,6 @@ def addNumbers(a, b):
 	if type(a) == int and type(b) == int:
              return a + b
         else:
-            return
+            return - 1
 
 main()
