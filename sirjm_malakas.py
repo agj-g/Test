@@ -24,7 +24,7 @@ def main():
             print("Please schedule a consultation.")
             
 def addNumbers(a, b):
-	if str(a).isnumeric() and str(b).isnumeric:
+	if type(a) == int and type(b) == int:
              return a + b
         else:
             return
